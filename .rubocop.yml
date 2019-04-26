@@ -1,0 +1,62 @@
+AllCops:
+  Exclude:
+    - 'bin/**/*'
+    - 'db/**/*'
+    - 'config/**/*'
+    - 'node_modules/**/*'
+    - 'script/**/*'
+    - 'support/**/*'
+    - 'tmp/**/*'
+    - 'test/**/*'
+    - 'spec/spec_helper.rb'
+    - 'spec/rails_helper.rb'
+
+AbcSize:
+  Enabled: false
+Bundler/OrderedGems:
+  Enabled: false
+Casecmp:
+  Enabled: false
+ConditionalAssignment:
+  Enabled: false
+CyclomaticComplexity:
+  Enabled: false
+Documentation:
+  Enabled: false
+Layout/AlignHash:
+  EnforcedHashRocketStyle: table
+  EnforcedColonStyle: table
+Layout/DotPosition:
+  EnforcedStyle: trailing
+Layout/MultilineMethodCallIndentation:
+  EnforcedStyle: indented_relative_to_receiver
+Layout/SpaceInLambdaLiteral:
+  EnforcedStyle: require_space
+LineLength:
+  Max: 120
+MethodMissingSuper:
+  Enabled: false
+MissingRespondToMissing:
+  Enabled: false
+MutableConstant:
+  Enabled: false
+Style/AsciiComments:
+  Enabled: false
+Style/EmptyMethod:
+  Enabled: false
+SignalException:
+  Enabled: false
+Style/FrozenStringLiteralComment:
+  Enabled: false
+Style/Lambda:
+  EnforcedStyle: literal
+StringLiterals:
+  Enabled: false
+Style/SymbolArray:
+  EnforcedStyle: brackets
+Style/TrailingCommaInHashLiteral:
+  Enabled: false
+RedundantReturn:
+  Enabled: false
+WordArray:
+  Enabled: false
