@@ -36,6 +36,9 @@ LineLength:
   Max: 120
 MethodMissingSuper:
   Enabled: false
+Metrics/BlockLength:
+  Exclude:
+    - 'spec/**/*'
 MissingRespondToMissing:
   Enabled: false
 MutableConstant:
